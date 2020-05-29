@@ -1,0 +1,54 @@
+{
+    "name": "probststefan/laravel-shopware-api",
+    "description": "",
+    "keywords": [
+        "probststefan",
+        "laravel-shopware-api"
+    ],
+    "homepage": "https://github.com/probststefan/laravel-shopware-api",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Stefan Probst",
+            "email": "probststefan@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Probststefan\\LaravelShopwareApi\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Probststefan\\LaravelShopwareApi\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Probststefan\\LaravelShopwareApi\\LaravelShopwareApiServiceProvider"
+            ],
+            "aliases": {
+                "LaravelShopwareApi": "Probststefan\\LaravelShopwareApi\\LaravelShopwareApiFacade"
+            }
+        }
+    }
+}
