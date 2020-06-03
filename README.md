@@ -5,7 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/probststefan/laravel-shopware-api.svg?style=flat-square)](https://scrutinizer-ci.com/g/probststefan/laravel-shopware-api)
 [![Total Downloads](https://img.shields.io/packagist/dt/probststefan/laravel-shopware-api.svg?style=flat-square)](https://packagist.org/packages/probststefan/laravel-shopware-api)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+This package provides a convenient wrapper to the Shopware 5 API for Laravel applications.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 {
     "name": "probststefan/laravel-shopware-api",
-    "description": "",
+    "description": "This package provides a convenient wrapper to the Shopware 5 API for Laravel applications.",
     "keywords": [
         "probststefan",
         "laravel-shopware-api"
